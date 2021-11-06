@@ -12,7 +12,8 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 
-import Image from "../../../../components/theFront/Image";
+import Image from "components/theFront/Image";
+import { useCurrentUser } from "flow/hooks/current-user";
 
 const useStyles = makeStyles((theme) => ({
   root: {},
@@ -23,6 +24,12 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
+  },
+  menuContainer: {
+    display: "flex",
+    justifyContent: "space-between",
+    alignItems: "center",
+    width: "536px",
   },
   toolbar: {
     maxWidth: 1236,
@@ -35,6 +42,7 @@ const useStyles = makeStyles((theme) => ({
     cursor: "pointer",
     paddingTop: 0,
     paddingBottom: 0,
+    paddingLeft: 90,
     color: "#846cff",
   },
   listItemText: {
@@ -47,9 +55,6 @@ const useStyles = makeStyles((theme) => ({
     height: "55px",
     borderRadius: 0,
     marginRight: 20,
-    "&:hover": {
-      background: "transparent",
-    },
   },
   iconButton: {
     padding: 0,
@@ -66,31 +71,31 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   logoImage: {
-    width: "100%",
-    height: "100%",
+    width: "108px",
+    height: "28px",
+    marginRight: "118px",
   },
 }));
 
 const Topbar = (props) => {
   const { onSidebarOpen, ...rest } = props;
-
   const classes = useStyles();
+  const cu = useCurrentUser();
 
   return (
     <Toolbar disableGutters className={classes.toolbar} {...rest}>
-      <div className={classes.logoContainer}>
-        <a href="/" title="PIXORI">
-          <Image
-            className={classes.logoImage}
-            src="/img/logo.png"
-            alt="PIXORI"
-            lazy={false}
-          />
-        </a>
-      </div>
-      <div className={classes.flexGrow} />
-      <Hidden smDown>
-        <List className={classes.navigationContainer}>
+      <List className={classes.menuContainer}>
+        <div className={classes.logoContainer}>
+          <a href="/" title="PIXORI">
+            <Image
+              className={classes.logoImage}
+              src={process.env.PUBLIC_URL + "/logo.png"}
+              alt="PIXORI"
+              lazy={false}
+            />
+          </a>
+        </div>
+        <Hidden mdDown>
           <ListItem className={classes.listItem}>
             <Typography
               variant="body1"
@@ -102,6 +107,7 @@ const Topbar = (props) => {
               Home
             </Typography>
           </ListItem>
+
           <ListItem className={classes.listItem}>
             <Typography
               variant="body1"
@@ -124,13 +130,23 @@ const Topbar = (props) => {
               Support
             </Typography>
           </ListItem>
+        </Hidden>
+      </List>
+      <div className={classes.flexGrow} />
+      <Hidden smDown>
+        <List className={classes.navigationContainer}>
           <ListItem className={classes.listItem}>
-            <Button variant="contained" className={classes.listItemButton}>
+            <Button
+              variant="contained"
+              className={classes.listItemButton}
+              onClick={cu.login}
+            >
               Login
             </Button>
             <Button
-              variant="containedSecondary"
+              variant="containedSecondary" // TODO
               className={classes.listItemButton}
+              onClick={cu.signup}
             >
               Signup
             </Button>
