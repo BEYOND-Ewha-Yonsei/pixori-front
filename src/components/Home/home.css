@@ -1,0 +1,513 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+.gnb_bg1 {
+  width: 1920px;
+  height: 112px;
+  flex-grow: 0;
+  padding: 40px 330px 38px 72px;
+  background-color: #f5f7fa;
+}
+.gnb_bg {
+  position: relative;
+  top: -50px;
+  width: 1920px;
+  height: 210px;
+  flex-grow: 0;
+  padding: 40px 330px 38px 72px;
+  background-color: #f5f7fa;
+  display: opacity;
+}
+.logo {
+  width: 108px;
+  height: 28px;
+  margin: 6px 107px 0 162px;
+  padding: 0 0 0px;
+}
+.Vector1 {
+  width: 8.2px;
+  height: 20.3px;
+  flex-grow: 0;
+  margin: 5.3px 2.9px 8.5px 2.9px;
+  background-color: #846cff;
+}
+.Frame-1 {
+  width: 252px;
+  height: 32px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 71px 373px 0 97.8px;
+  padding: 4px 10px 1px;
+  background-color: #846cff;
+}.enjoynft{
+  width: 664px;
+  height: 224px;
+  margin: 0 auto;
+  font-family: SpaceMono;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: normal;
+  text-align: center;
+  color: #846cff;
+
+
+} 
+.MakeandMint {
+  width: 724px;
+  height: 51px;
+  margin: 0 auto;
+  color: #846cff;
+  
+  font-size: 46px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: normal;
+  text-align: center;
+}
+
+.withpixori{
+  width: 926px;
+  height: 88px;
+  margin: 120px auto;
+  font-family: SpaceMono;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a695ff;
+}
+.withenjoy{width: 1354px;
+  height: 88px;
+  margin: 100px auto;
+  font-family: SpaceMono;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.34;
+  letter-spacing: normal;
+  text-align: center;
+  color: #a695ff;}
+  .withdisplay{
+    width: 1354px;
+    height: 88px;
+    margin:  0 auto;
+    font-family: SpaceMono;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+   
+    text-align: center;
+    color: #a695ff;
+    }
+.Create-your-own-NFTs {
+  width: 232px;
+  height: 27px;
+  flex-grow: 0;
+  font-family: SpaceMono;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+.Vector4 {
+  width: 16.3px;
+  height: 20.3px;
+  flex-grow: 0;
+  margin: 5.6px 2.9px 8.1px 2.9px;
+  background-color: #846cff;
+}
+.font {
+    height: "100%";
+    width: "100%";
+  
+  margin: 500 0 0 44px;
+  -webkit-text-stroke: 3px #ffffff;
+  font-family: "Space Mono", monospace;
+  font-size: 54px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  color: #846cff;
+  line-height: 1.34;
+  letter-spacing: normal;
+  text-align: center;
+}
+.Vector5 {
+  width: 8.2px;
+  height: 20.3px;
+  flex-grow: 0;
+  margin: 5.2px 107px 8.5px 2.9px;
+  background-color: #846cff;
+}
+
+.Thenshare{
+  margin: 44px 182px 85px;
+  font-family: SpaceMono;
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;}
+
+  .gird3{
+    width: 732px;
+    height: 538px;
+    margin: 24px 314px 0 340px;
+    object-fit: contain;
+    box-shadow: 0 0 21px 6px rgba(132, 108, 255, 0.2);
+  }
+  .Share{
+    
+      width: 782px;
+      height: 224px;
+      margin:  0 auto;
+      font-family: SpaceMono;
+      font-size: 54px;
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.34;
+      letter-spacing: normal;
+      text-align: center;
+      color: #846cff;
+    
+  }
+.grid {
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+    box-shadow: 0 0 21px 6px rgba(132, 108, 255, 0.2);
+
+}
+.grid2 {
+    width: 805px;
+    height: 465px;
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+  box-shadow: 0 0 21px 6px rgba(132, 108, 255, 0.2);
+}
+
+.grid3 {
+  width: 805px;
+  height: 465px;
+  margin: 0px auto;
+  text-align: center;
+  display: block;
+  box-shadow: 0 0 21px 6px rgba(132, 108, 255, 0.2);
+}
+.Frame-5 {
+  width: 241px;
+  height: 41px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 0 378px 34px 103.8px;
+  padding: 4px 10px 1px;
+  background-color: #846cff;
+}
+.Drawing {
+  width: 105px;
+  height: 26px;
+  flex-grow: 0;
+  margin: 6px 44px 2px 107px;
+  font-family: SpaceMono;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(132, 108, 255, 0.7);
+}
+.img_pixelart_bird {
+  display: bl;
+  width: 260px;
+  height: 390px;
+  margin: 0 0 0 315px;
+}
+.img_pixelart_cherry {
+   width: 220px;
+  height: 55px;
+  margin: 85px 488px 0;
+  padding: 34.5px 340px 88.5px;
+  object-fit: contain;
+  border-style: solid;
+  border-width: 1px;
+  border-image-source: linear-gradient(to top, #70f6f3, #846cff);
+  border-image-slice: 1;
+}
+.LETS-Start {
+  width: 152px;
+  height: 23px;
+  font-family: SpaceMono;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #846cff;
+}
+.collection1 {
+  width: 140px;
+  height: 26px;
+  flex-grow: 0;
+  margin: 6px 43px 2px 44px;
+  font-family: SpaceMono;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(132, 108, 255, 0.7);
+}
+.collection2 {
+  width: 119px;
+  height: 26px;
+  flex-grow: 0;
+  margin: 6px 322px 2px 43px;
+  font-family: SpaceMono;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: rgba(132, 108, 255, 0.7);
+}
+.login {
+  position: relative;
+  left: 1200px;
+  top: -70px;
+  width: 185px;
+  height: 55px;
+  flex-grow: 0;
+  margin: 0 32px 0 184px;
+  padding: 5px 25px 17px 33px;
+  border: solid 1px #846cff;
+  background-color: #f5f7fa;
+  font-family: SpaceMono;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #846cff;
+}
+.Signrectangle {
+  flex-grow: 0;
+  font-family: SpaceMono;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  left: 1170px;
+  top: -70px;
+  width: 185px;
+  height: 55px;
+  flex-grow: 0;
+  margin: 0 0 0 32px;
+  padding: 12px 9px 16px;
+  border: solid 1px #846cff;
+  background-color: #846cff;
+}
+.Rectangle-1022 {
+
+  height: 1080px;
+  width: "100%";
+  padding: 126px 296px 96px 270px;
+  background-color: #f5f7fa;
+}
+.firstsection {
+    padding: 126px 296px 96px 270px;
+    height: 588px;
+    margin: 112px 0 52px;
+    padding: 59px 362px 61px;
+    width: "100%";
+  height: 588px;
+
+  border: solid 1px #846cff;
+  background-color: #846cff;
+}
+.Rectangle-492 {
+  width: 256px;
+  margin:0 auto; 
+ 
+  padding: 1.3px 18.7px 10.8px 18.7px;
+  border: solid 1px #846cff;
+  background-color: #70f6f3;
+
+  font-family: SpaceMono;
+  font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #846cff;
+}
+.Rectangle-467 {
+  width: 1920px;
+  height: 180px;
+  margin: 65px 0 0;
+  padding: 24px 805px 0 329px;
+  background-color: #f5f7fa;
+}
+.Customer-services {
+  width: 135px;
+  height: 19px;
+  margin: 0 18.5px 17px 0;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #846cff;
+}
+.Follow-us {
+  position: relative;
+  left: 700px;
+  top: -40px;
+  width: 69px;
+  height: 19px;
+  margin: 0 39px 17px 190px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #846cff;
+}
+.Contact {
+  color: #846cff;
+  margin-bottom: 15px;
+}
+.profileicon {
+  position: relative;
+  left: 1800px;
+  top: -80px;
+}
+.profileCluster {
+  color: #846cff;
+  font-family: SpaceMono;
+  font-size: 16px;
+}
+.initCluster {
+  color: #846cff;
+  font-family: SpaceMono;
+  font-size: 20px;
+}
+.initButton {
+  background-color: #846cff;
+  color: #ffffff;
+  font-family: SpaceMono;
+  font-size: 20px;
+  padding: 5px 10px 5px 10px;
+  margin-top: 15px;
+}
+.profileInput {
+  position: relative;
+  flex-grow: 0;
+  font-family: SpaceMono;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #846cff;
+  position: relative;
+  width: 250px;
+  height: 40px;
+  flex-grow: 0;
+  margin: 10px 0 10px 0px;
+  border: solid 3px #846cff;
+  background-color: #ffffff;
+}
+.updateProfile {
+  position: relative;
+  flex-grow: 0;
+  font-family: SpaceMono;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+  width: 130px;
+  height: 40px;
+  flex-grow: 0;
+  margin: 0 0 0 20px;
+  border: solid 1px #846cff;
+  background-color: #846cff;
+}
+.editprofile {
+  width: 248px;
+  height: 48px;
+  flex-grow: 0;
+  margin: 0 0 33px;
+  padding: 8px 16px 6px 15px;
+  border: solid 1px #846cff;
+  background-color: #ffffff;
+  flex-grow: 0;
+  font-family: SpaceMono;
+  font-size: 18px;
+  color: #3e4c59;
+}
+.editbutton {
+  flex-grow: 0;
+  font-family: SpaceMono;
+  font-size: 18px;
+  color: #3e4c59;
+}
+
+
+
